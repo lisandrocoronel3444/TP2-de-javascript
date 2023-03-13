@@ -1,89 +1,88 @@
-let resto = 0;
-let letra = "";
-
-    let numero = prompt("Introduce tu dni");
+let resto = 0
+let letra = ""
+    let numero = prompt("Introduce tu dni")
     if (Number(numero) == numero) {
-        numero = Number(numero);
+        numero = Number(numero)
         if (numero >= 0 && numero <= 99999999) {
-            resto = numero % 23;
+            resto = numero % 23
             switch (resto) {
                 case 0:
-                    letra = "T";
-                    break;
+                    letra = "T"
+                    break
                 case 1:
-                    letra = "R";
+                    letra = "R"
                     break;
                 case 2:
-                    letra = "W";
+                    letra = "W"
                     break;
                 case 3:
-                    letra = "A";
-                    break;
+                    letra = "A"
+                    break
                 case 4:
-                    letra = "G";
+                    letra = "G"
                     break;
                 case 5:
-                    letra = "M";
-                    break;
+                    letra = "M"
+                    break
                 case 6:
-                    letra = "Y";
-                    break;
+                    letra = "Y"
+                    break
                 case 7:
-                    letra = "F";
-                    break;
+                    letra = "F"
+                    break
                 case 8:
-                    letra = "P";
-                    break;
+                    letra = "P"
+                    break
                 case 9:
-                    letra = "D";
-                    break;
+                    letra = "D"
+                    break
                 case 10:
-                    letra = "X";
-                    break;
+                    letra = "X"
+                    break
                 case 11:
-                    letra = "B";
-                    break;
+                    letra = "B"
+                    break
                 case 12:
-                    letra = "N";
-                    break;
+                    letra = "N"
+                    break
                 case 13:
-                    letra = "J";
-                    break;
+                    letra = "J"
+                    break
                 case 14:
-                    letra = "Z";
-                    break;
+                    letra = "Z"
+                    break
                 case 15:
-                    letra = "S";
-                    break;
+                    letra = "S"
+                    break
                 case 16:
-                    letra = "Q";
-                    break;
+                    letra = "Q"
+                    break
                 case 17:
-                    letra = "V";
-                    break;
+                    letra = "V"
+                    break
                 case 18:
-                    letra = "H";
-                    break;
+                    letra = "H"
+                    break
                 case 19:
-                    letra = "L";
-                    break;
+                    letra = "L"
+                    break
                 case 20:
-                    letra = "C";
-                    break;
+                    letra = "C"
+                    break
                 case 21:
-                    letra = "K";
-                    break;
+                    letra = "K"
+                    break
                 case 22:
-                    letra = "E";
-                    break;
+                    letra = "E"
+                    break
                 default:
-                    alert("Numero erroneo");
+                    alert("Numero erroneo")
             }
         }
-        alert("Numero: " + numero + ", Letra: " + letra);
+        alert("Numero: " + numero + ", Letra: " + letra)
     }
     else {
         if (numero != undefined) {
-            alert(numero + " No es un numero");
+            alert(numero + " No es un numero")
         }
     }
