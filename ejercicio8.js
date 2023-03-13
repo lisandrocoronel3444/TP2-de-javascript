@@ -4,7 +4,7 @@ if (Number(numrepeticion) == numrepeticion) {
     if (numrepeticion > 0 && numrepeticion <= 50) {
         let rep,i;
         for (i = 0; i <=numrepeticion; i++) {
-            //BUCLE DESDE 1 HASTA i
+       
             for (rep = 1; rep <= i; rep++) {
                 document.write(rep)
             }
