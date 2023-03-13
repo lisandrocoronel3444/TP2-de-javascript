@@ -1,5 +1,5 @@
 let suma = 0;
-    var numero = prompt("Introduce un numero");
+let numero = prompt("Introduce un numero");
     if (Number(numero) == numero) {
         numero = Number(numero);
         suma = suma + numero;
